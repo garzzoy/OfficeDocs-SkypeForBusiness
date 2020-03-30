@@ -66,6 +66,8 @@ Tags let users communicate with a subset of people on a team. Tags can be added 
 
 Turn on this feature so users can send email to a channel in Teams, using the channel email address. Users can do this for any channel belonging to a team they own. Users can also send emails to any channel in a team that has adding connectors turned on for team members. To turn on email integration, make sure that **Allow users to send emails to a channel email address** is **On**.
 
+"Accept channel email from these SMTP domains" setting can control the allowed domains that can send email to Channels.  Setting this will preset these domains and prevent Teams client from changing domains.  Individual domains must be listed, wildcard aren't honored.
+
 #### Files
 
 Here you can turn on or turn off file sharing and cloud file storage options.
